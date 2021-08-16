@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 配置User对象创建 -->
+    <bean id="user" class="com.jacky.User" p:id="12345" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="props" value="this is props in xml"/>
+    </bean>
+    <bean id="myBeanPost" class="com.jacky.MyBeanPost"></bean>
+</beans>

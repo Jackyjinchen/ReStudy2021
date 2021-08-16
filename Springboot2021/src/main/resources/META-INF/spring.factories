@@ -1,0 +1,11 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.jacky.hello.listener.MyApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.jacky.hello.listener.MyApplicationListener
+
+# Application Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.jacky.hello.listener.MySpringApplicationRunListener

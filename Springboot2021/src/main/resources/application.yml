@@ -1,0 +1,29 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    # 配置开启参数方式内容协商
+    contentnegotiation:
+      favor-parameter: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/userDb
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080 #开启BootAdmin的监控
+management:
+  endpoints:
+    enabled-by-default: true #暴露所有端点信息
+    web:
+      exposure:
+        include: '*'  #以web方式暴露
+  endpoint:
+    health:
+      show-details: always
