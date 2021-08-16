@@ -1,5 +1,3 @@
- [IntelliJ IDEA 2020.3.3](http://www.520xiazai.com/soft/idea-mac.html) 
-
  [Maven Repository](https://mvnrepository.com/) 
 
  [SpringBoot](https://www.yuque.com/atguigu/springboot/vgzmgh) 
