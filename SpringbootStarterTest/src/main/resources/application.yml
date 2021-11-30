@@ -1,0 +1,7 @@
+server:
+  port: 8080
+# 自行绑定配置HelloProperties文件的属性值
+jacky:
+  hello:
+    prefix: 'Dear'
+    suffix: '你好'
